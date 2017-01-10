@@ -1,0 +1,18 @@
+{
+  "name": "@react-material/all",
+  "version": "0.1.0",
+  "description": "Modular and customizable Material Design UI components for React",
+  "main": "lib/index.js",
+  "repository": "https://github.com/kripod/material-components-react/packages/all",
+  "author": "Kristóf Poduszló <kripod@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib -s"
+  },
+  "dependencies": {
+    "@react-material/checkbox": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0"
+  }
+}

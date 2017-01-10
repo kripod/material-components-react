@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "material-components-react",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "lerna run build",
+    "lint": "eslint --ignore-path .gitignore ./packages"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "lerna": "^2.0.0-beta.32",
+    "react": "^15.4.2"
+  }
+}
