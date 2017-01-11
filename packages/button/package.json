@@ -6,6 +6,9 @@
   "repository": "https://github.com/kripod/material-components-react/tree/master/packages/button",
   "author": "Kristóf Poduszló <kripod@protonmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib -s"
+  },
   "dependencies": {
     "@material/button": "^0.1.1",
     "classnames": "^2.2.5"
