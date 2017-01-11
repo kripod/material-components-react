@@ -4,13 +4,21 @@
   "version": "0.0.0",
   "scripts": {
     "build": "lerna run build",
-    "lint": "eslint --ignore-path .gitignore ./packages"
+    "lint": "eslint --ignore-path .gitignore ./packages",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-2": "^6.18.0",
+    "commitizen": "^2.9.5",
+    "cz-conventional-changelog": "^1.2.0",
     "eslint": "^3.13.1",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",
