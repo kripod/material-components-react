@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Modular and customizable Material Design UI components for React",
   "main": "lib/index.js",
-  "repository": "https://github.com/kripod/material-components-react/packages/all",
+  "repository": "https://github.com/kripod/material-components-react/tree/master/packages/all",
   "author": "Kristóf Poduszló <kripod@protonmail.com>",
   "license": "MIT",
   "scripts": {
