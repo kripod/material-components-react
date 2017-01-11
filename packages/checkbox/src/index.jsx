@@ -7,12 +7,14 @@ const BROWSER_ANIMATION_END_EVENT_NAME = getCorrectEventName(window, 'animatione
 
 export default class Checkbox extends PureComponent {
   static propTypes = {
+    className: PropTypes.string,
     checked: PropTypes.bool,
     indeterminate: PropTypes.bool,
     onChange: PropTypes.func,
   };
 
   static defaultProps = {
+    className: '',
     checked: false,
     indeterminate: false,
     onChange: () => {},
@@ -109,7 +111,7 @@ export default class Checkbox extends PureComponent {
     return (
       <div
         ref={(element) => { this.rootElement = element; }}
-        className={`mdc-checkbox ${this.state.classNames.join(' ')}`}
+        className={`mdc-checkbox ${this.state.classNames.join(' ')} ${this.props.className}`}
       >
         <input
           ref={(element) => { this.nativeElement = element; }}
