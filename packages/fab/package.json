@@ -1,0 +1,19 @@
+{
+  "name": "@react-material/fab",
+  "version": "0.1.0",
+  "description": "Material Design floating action button component for React",
+  "main": "lib/index.js",
+  "repository": "https://github.com/kripod/material-components-react/tree/master/packages/fab",
+  "author": "Kristóf Poduszló <kripod@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material/fab": "^0.2.0",
+    "classnames": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2"
+  }
+}
