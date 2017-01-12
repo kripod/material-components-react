@@ -1,11 +1,14 @@
 {
   "name": "@react-material/checkbox",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Material Design checkbox component for React",
   "main": "dist/index.js",
   "repository": "https://github.com/kripod/material-components-react/tree/master/packages/checkbox",
   "author": "Kristóf Poduszló <kripod@protonmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "babel src -d dist -s"
   },
