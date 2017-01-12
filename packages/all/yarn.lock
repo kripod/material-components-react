@@ -2,6 +2,74 @@
 # yarn lockfile v1
 
 
+"@material/animation@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.1.1.tgz#7c7616a3a9fc31bdbeaeda4df4472c4e5ce85fa2"
+
+"@material/base@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@material/base/-/base-0.1.0.tgz#aae23050425f3c8d2b67b370ffc667dc042db352"
+
+"@material/button@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@material/button/-/button-0.1.1.tgz#8c3b1f8c7992363ec8fb60094239b72901272ab9"
+  dependencies:
+    "@material/animation" "^0.1.1"
+    "@material/elevation" "^0.1.1"
+    "@material/theme" "^0.1.0"
+    "@material/typography" "^0.1.0"
+
+"@material/checkbox@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@material/checkbox/-/checkbox-0.1.1.tgz#4fbe54da6b743fa7095e4653712a39f14e5bee2c"
+  dependencies:
+    "@material/animation" "^0.1.1"
+    "@material/base" "^0.1.0"
+    "@material/theme" "^0.1.0"
+
+"@material/elevation@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.1.1.tgz#8683228b49e33c6df1e8c278e99e9b5b607f5be6"
+  dependencies:
+    "@material/animation" "^0.1.1"
+
+"@material/fab@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.2.0.tgz#6bbbb6d486eab6ecb0fad165dc8a0733c12e72d3"
+  dependencies:
+    "@material/animation" "^0.1.1"
+    "@material/elevation" "^0.1.1"
+    "@material/theme" "^0.1.0"
+
+"@material/theme@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.1.0.tgz#39a8b46a30781517e2d3db81a253eefc30f351a3"
+
+"@material/typography@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.1.0.tgz#bb6a77a3ec8747e3ff887dd24cfdf9b40788e5f3"
+
+"@react-material/button@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@react-material/button/-/button-0.1.0.tgz#2c48f4117c0bc285ab84b03434ae5f067881bfda"
+  dependencies:
+    "@material/button" "^0.1.1"
+    classnames "^2.2.5"
+
+"@react-material/checkbox@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@react-material/checkbox/-/checkbox-0.2.0.tgz#8190b0f4a0440479946779beff009d0964f7c88b"
+  dependencies:
+    "@material/animation" "^0.1.1"
+    "@material/checkbox" "^0.1.1"
+
+"@react-material/fab@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@react-material/fab/-/fab-0.1.0.tgz#a5d48b9d2d8520262eb8b2abc7f9ac8fb41af19b"
+  dependencies:
+    "@material/fab" "^0.2.0"
+    classnames "^2.2.5"
+
 abbrev@1:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
@@ -217,8 +285,8 @@ babel-types@^6.16.0, babel-types@^6.21.0:
     to-fast-properties "^1.0.1"
 
 babylon@^6.11.0:
-  version "6.14.1"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.14.1.tgz#956275fab72753ad9b3435d7afe58f8bf0a29815"
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.15.0.tgz#ba65cfa1a80e1759b0e89fb562e27dccae70348e"
 
 balanced-match@^0.4.1:
   version "0.4.2"
@@ -293,6 +361,10 @@ chokidar@^1.0.0:
     readdirp "^2.0.0"
   optionalDependencies:
     fsevents "^1.0.0"
+
+classnames@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
 code-point-at@^1.0.0:
   version "1.1.0"

@@ -1,6 +1,5 @@
 import { getCorrectEventName } from '@material/animation';
 import { MDCCheckboxFoundation } from '@material/checkbox/dist/mdc.checkbox';
-import '@material/checkbox/dist/mdc.checkbox.css';
 import React, { PureComponent, PropTypes } from 'react';
 
 const BROWSER_ANIMATION_END_EVENT_NAME = getCorrectEventName(window, 'animationend');

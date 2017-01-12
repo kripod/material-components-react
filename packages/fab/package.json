@@ -13,7 +13,6 @@
     "build": "babel src -d dist -s"
   },
   "dependencies": {
-    "@material/fab": "^0.2.0",
     "classnames": "^2.2.5"
   },
   "devDependencies": {

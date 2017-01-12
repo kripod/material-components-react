@@ -1,4 +1,3 @@
-import '@material/fab/dist/mdc.fab.css';
 import classNames from 'classnames';
 import React, { PropTypes } from 'react';
 

@@ -1,4 +1,3 @@
-import '@material/button/dist/mdc.button.css';
 import classNames from 'classnames';
 import React, { PropTypes } from 'react';
 

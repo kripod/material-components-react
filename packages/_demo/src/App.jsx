@@ -1,3 +1,4 @@
+import 'material-components-web/dist/material-components-web.css';
 import 'normalize.css';
 import React from 'react';
 import './App.css';

@@ -2,33 +2,6 @@
 # yarn lockfile v1
 
 
-"@material/animation@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.1.1.tgz#7c7616a3a9fc31bdbeaeda4df4472c4e5ce85fa2"
-
-"@material/button@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@material/button/-/button-0.1.1.tgz#8c3b1f8c7992363ec8fb60094239b72901272ab9"
-  dependencies:
-    "@material/animation" "^0.1.1"
-    "@material/elevation" "^0.1.1"
-    "@material/theme" "^0.1.0"
-    "@material/typography" "^0.1.0"
-
-"@material/elevation@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.1.1.tgz#8683228b49e33c6df1e8c278e99e9b5b607f5be6"
-  dependencies:
-    "@material/animation" "^0.1.1"
-
-"@material/theme@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.1.0.tgz#39a8b46a30781517e2d3db81a253eefc30f351a3"
-
-"@material/typography@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.1.0.tgz#bb6a77a3ec8747e3ff887dd24cfdf9b40788e5f3"
-
 abbrev@1:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
@@ -1003,7 +976,19 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
-"readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2, readable-stream@~2.1.4:
+"readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.2.tgz#a9e6fec3c7dda85f8bb1b3ba7028604556fc825e"
+  dependencies:
+    buffer-shims "^1.0.0"
+    core-util-is "~1.0.0"
+    inherits "~2.0.1"
+    isarray "~1.0.0"
+    process-nextick-args "~1.0.6"
+    string_decoder "~0.10.x"
+    util-deprecate "~1.0.1"
+
+readable-stream@~2.1.4:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.1.5.tgz#66fa8b720e1438b364681f2ad1a63c618448c9d0"
   dependencies:
