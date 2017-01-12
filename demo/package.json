@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@react-material/button": "file:../packages/button",
+    "@react-material/checkbox": "file:../packages/checkbox",
+    "@react-material/fab": "file:../packages/fab",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"

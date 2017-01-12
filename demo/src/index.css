@@ -16,7 +16,7 @@ legend {
   background: white;
 }
 
-.mdc-button {
+.mdc-button, .mdc-fab {
   margin: 0.5em;
 }
 
