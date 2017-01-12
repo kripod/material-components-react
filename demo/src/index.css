@@ -1,0 +1,25 @@
+body {
+  margin: 1em;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  text-transform: capitalize;
+}
+
+fieldset {
+  margin: 1em 0;
+}
+
+legend {
+  background: white;
+}
+
+.mdc-button {
+  margin: 0.5em;
+}
+
+.mdc-theme--dark fieldset {
+  background-color: #333;
+}
