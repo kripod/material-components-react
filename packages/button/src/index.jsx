@@ -19,7 +19,7 @@ const Button = props =>
 ;
 
 Button.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
+  children: PropTypes.node.isRequired,
   className: PropTypes.string,
   dense: PropTypes.bool,
   raised: PropTypes.bool,
