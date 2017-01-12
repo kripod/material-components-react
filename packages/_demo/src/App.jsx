@@ -1,14 +1,14 @@
 import 'normalize.css';
 import React from 'react';
-import { render } from 'react-dom';
+import './App.css';
 import ButtonDemo from './ButtonDemo';
 import FabDemo from './FabDemo';
-import './index.css';
 
-render(
+const App = () =>
   <main>
     <ButtonDemo />
     <FabDemo />
-  </main>,
-  document.getElementById('root'),
-);
+  </main>
+;
+
+export default App;
