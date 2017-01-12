@@ -1,7 +1,7 @@
 exports[`test renders correctly 1`] = `
 <div>
   <h1>
-    Buttons
+    Button
   </h1>
   <div>
     <h2>

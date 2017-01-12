@@ -3,7 +3,7 @@ import React from 'react';
 
 const ButtonDemo = () =>
   <div>
-    <h1>Buttons</h1>
+    <h1>Button</h1>
 
     {Object.entries({
       light: '',
