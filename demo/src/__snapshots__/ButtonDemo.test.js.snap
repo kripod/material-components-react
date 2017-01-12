@@ -1,0 +1,209 @@
+exports[`test renders correctly 1`] = `
+<div>
+  <h1>
+    Buttons
+  </h1>
+  <div>
+    <h2>
+      light
+       theme
+    </h2>
+    <section
+      className="">
+      <fieldset
+        disabled={false}>
+        <legend>
+          Enabled
+        </legend>
+        <button
+          className="mdc-button ">
+          Default
+        </button>
+        <button
+          className="mdc-button mdc-button--raised ">
+          Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--dense ">
+          Dense Default
+        </button>
+        <button
+          className="mdc-button mdc-button--dense mdc-button--raised ">
+          Dense Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--compact ">
+          Compact
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--compact ">
+          Compact Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--primary ">
+          Default with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--primary ">
+          Raised with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--accent ">
+          Default with Accent
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--accent ">
+          Raised with Accent
+        </button>
+      </fieldset>
+      <fieldset
+        disabled={true}>
+        <legend>
+          Disabled
+        </legend>
+        <button
+          className="mdc-button ">
+          Default
+        </button>
+        <button
+          className="mdc-button mdc-button--raised ">
+          Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--dense ">
+          Dense Default
+        </button>
+        <button
+          className="mdc-button mdc-button--dense mdc-button--raised ">
+          Dense Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--compact ">
+          Compact
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--compact ">
+          Compact Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--primary ">
+          Default with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--primary ">
+          Raised with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--accent ">
+          Default with Accent
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--accent ">
+          Raised with Accent
+        </button>
+      </fieldset>
+    </section>
+  </div>
+  <div>
+    <h2>
+      dark
+       theme
+    </h2>
+    <section
+      className="mdc-theme--dark">
+      <fieldset
+        disabled={false}>
+        <legend>
+          Enabled
+        </legend>
+        <button
+          className="mdc-button ">
+          Default
+        </button>
+        <button
+          className="mdc-button mdc-button--raised ">
+          Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--dense ">
+          Dense Default
+        </button>
+        <button
+          className="mdc-button mdc-button--dense mdc-button--raised ">
+          Dense Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--compact ">
+          Compact
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--compact ">
+          Compact Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--primary ">
+          Default with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--primary ">
+          Raised with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--accent ">
+          Default with Accent
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--accent ">
+          Raised with Accent
+        </button>
+      </fieldset>
+      <fieldset
+        disabled={true}>
+        <legend>
+          Disabled
+        </legend>
+        <button
+          className="mdc-button ">
+          Default
+        </button>
+        <button
+          className="mdc-button mdc-button--raised ">
+          Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--dense ">
+          Dense Default
+        </button>
+        <button
+          className="mdc-button mdc-button--dense mdc-button--raised ">
+          Dense Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--compact ">
+          Compact
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--compact ">
+          Compact Raised
+        </button>
+        <button
+          className="mdc-button mdc-button--primary ">
+          Default with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--primary ">
+          Raised with Primary
+        </button>
+        <button
+          className="mdc-button mdc-button--accent ">
+          Default with Accent
+        </button>
+        <button
+          className="mdc-button mdc-button--raised mdc-button--accent ">
+          Raised with Accent
+        </button>
+      </fieldset>
+    </section>
+  </div>
+</div>
+`;
