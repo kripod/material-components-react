@@ -3,8 +3,10 @@
   "name": "material-components-react",
   "version": "0.0.0",
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "build": "lerna run build",
     "lint": "eslint --ignore-path .gitignore ./packages",
+    "test": "cd ./demo && npm test",
     "commit": "git-cz"
   },
   "config": {
