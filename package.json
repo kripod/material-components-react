@@ -6,7 +6,7 @@
     "postinstall": "lerna bootstrap",
     "build": "lerna run build",
     "lint": "eslint --ignore-path .gitignore ./packages",
-    "test": "cd ./demo && npm test",
+    "test": "cd ./packages/_demo && npm test",
     "commit": "git-cz"
   },
   "config": {

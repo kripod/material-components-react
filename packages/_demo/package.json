@@ -1,24 +1,22 @@
 {
   "private": true,
-  "name": "material-components-react-demo",
+  "name": "@react-material/_demo",
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "pretest": "npm i"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@react-material/button": "file:../packages/button",
-    "@react-material/checkbox": "file:../packages/checkbox",
-    "@react-material/fab": "file:../packages/fab",
+    "@react-material/button": "file:../button",
+    "@react-material/fab": "file:../fab",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
-    "react-scripts": "0.8.5",
+    "react-scripts": "^0.8.5",
     "react-test-renderer": "^15.4.2"
   }
 }
