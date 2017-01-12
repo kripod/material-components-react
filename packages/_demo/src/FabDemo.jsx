@@ -13,15 +13,15 @@ const FabDemo = () =>
     </Fab>
 
     <section>
-      {[true, false].map((isEnabled, i) =>
-        <fieldset key={i} disabled={!isEnabled}>
-          <legend>{isEnabled ? 'Enabled': 'Disabled'}</legend>
+      {[true, false].map(isEnabled =>
+        <fieldset key={isEnabled} disabled={!isEnabled}>
+          <legend>{isEnabled ? 'Enabled' : 'Disabled'}</legend>
 
           <Fab aria-label="Favorite">favorite_border</Fab>
           <Fab mini aria-label="Favorite">favorite_border</Fab>
           <Fab plain aria-label="Favorite">favorite_border</Fab>
           <Fab mini plain aria-label="Favorite">favorite_border</Fab>
-        </fieldset>
+        </fieldset>,
       )}
     </section>
   </div>

@@ -5,7 +5,7 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "build": "lerna run build",
-    "lint": "eslint --ignore-path .gitignore ./packages",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.jsx ./packages",
     "test": "cd ./packages/_demo && npm test",
     "commit": "git-cz"
   },

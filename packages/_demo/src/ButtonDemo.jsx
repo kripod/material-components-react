@@ -7,14 +7,14 @@ const ButtonDemo = () =>
 
     {Object.entries({
       light: '',
-      dark: 'mdc-theme--dark'
-    }).map(([themeName, themeStyleClassName], i) =>
-      <div key={i}>
+      dark: 'mdc-theme--dark',
+    }).map(([themeName, themeStyleClassName]) =>
+      <div key={themeName}>
         <h2>{themeName} theme</h2>
         <section className={themeStyleClassName}>
-          {[true, false].map((isEnabled, j) =>
-            <fieldset key={j} disabled={!isEnabled}>
-              <legend>{isEnabled ? 'Enabled': 'Disabled'}</legend>
+          {[true, false].map(isEnabled =>
+            <fieldset key={isEnabled} disabled={!isEnabled}>
+              <legend>{isEnabled ? 'Enabled' : 'Disabled'}</legend>
 
               <Button>Default</Button>
               <Button raised>Raised</Button>
@@ -26,10 +26,10 @@ const ButtonDemo = () =>
               <Button raised primary>Raised with Primary</Button>
               <Button accent>Default with Accent</Button>
               <Button raised accent>Raised with Accent</Button>
-            </fieldset>
+            </fieldset>,
           )}
         </section>
-      </div>
+      </div>,
     )}
   </div>
 ;

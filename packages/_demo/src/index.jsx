@@ -10,5 +10,5 @@ render(
     <ButtonDemo />
     <FabDemo />
   </main>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

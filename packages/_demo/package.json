@@ -13,10 +13,10 @@
     "@react-material/fab": "file:../fab",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-test-renderer": "^15.4.2"
   },
   "devDependencies": {
-    "react-scripts": "^0.8.5",
-    "react-test-renderer": "^15.4.2"
+    "react-scripts": "^0.8.5"
   }
 }
