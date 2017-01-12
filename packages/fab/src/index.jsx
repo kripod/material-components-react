@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import React, { PropTypes } from 'react';
 
 const FloatingActionButton = (props) => {
-  const isIconSpecifiedByName = typeof this.props.children === 'string';
+  const isIconSpecifiedByName = typeof props.children === 'string';
 
   return (
     <button
@@ -14,16 +14,17 @@ const FloatingActionButton = (props) => {
         'material-icons': isIconSpecifiedByName,
         [props.className]: true,
       })}
-      {...(isIconSpecifiedByName && { 'aria-label': this.props.children })}
+      {...(isIconSpecifiedByName && { 'aria-label': props.children })}
     >
       <span className="mdc-fab__icon">
-        {this.props.children}
+        {props.children}
       </span>
     </button>
   );
 };
 
 FloatingActionButton.propTypes = {
+  children: PropTypes.node.isRequired,
   className: PropTypes.string,
   mini: PropTypes.bool,
   plain: PropTypes.bool,
