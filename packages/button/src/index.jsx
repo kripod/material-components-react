@@ -14,11 +14,12 @@ const Button = props =>
       [props.className]: true,
     })}
   >
-    {this.props.children}
+    {props.children}
   </button>
 ;
 
 Button.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   className: PropTypes.string,
   dense: PropTypes.bool,
   raised: PropTypes.bool,
