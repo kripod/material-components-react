@@ -1,7 +1,7 @@
 import 'normalize.css';
 import React from 'react';
 import { render } from 'react-dom';
-import ButtonDemo from './components/ButtonDemo';
+import ButtonDemo from './ButtonDemo';
 import './index.css';
 
 render(
