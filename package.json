@@ -8,6 +8,7 @@
     "build": "lerna run build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx ./packages",
     "test": "jest",
+    "coverage": "npm run test -- --coverage && remap-istanbul -i ./coverage/coverage-final.json -o ./coverage/coverage-final.json",
     "commit": "git-cz"
   },
   "config": {
@@ -21,6 +22,10 @@
       "**/dist/*.js",
       "!_demo/**",
       "!all/**"
+    ],
+    "coverageReporters": [
+      "json",
+      "text"
     ]
   },
   "devDependencies": {
@@ -37,6 +42,7 @@
     "eslint-plugin-react": "^6.9.0",
     "jest": "^18.1.0",
     "lerna": "^2.0.0-beta.32",
-    "react": "^15.4.2"
+    "react": "^15.4.2",
+    "remap-istanbul": "^0.8.4"
   }
 }
