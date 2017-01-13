@@ -3,15 +3,17 @@ import React, { PropTypes } from 'react';
 
 const FloatingActionButton = (props) => {
   const isIconSpecifiedByName = typeof props.children === 'string';
+  const { className, mini, plain, ...restProps } = props;
 
   return (
     <button
+      {...restProps}
       className={classNames({
         'mdc-fab': true,
-        'mdc-fab--mini': props.mini,
-        'mdc-fab--plain': props.plain,
+        'mdc-fab--mini': mini,
+        'mdc-fab--plain': plain,
         'material-icons': isIconSpecifiedByName,
-        [props.className]: true,
+        [className]: true,
       })}
       {...(isIconSpecifiedByName && { 'aria-label': props.children })}
     >

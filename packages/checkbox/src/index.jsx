@@ -107,10 +107,13 @@ export default class Checkbox extends PureComponent {
   });
 
   render() {
+    const { className, onChange, ...restProps } = this.props;
+
     return (
       <div
+        {...restProps}
         ref={(element) => { this.rootElement = element; }}
-        className={`mdc-checkbox ${this.state.classNames.join(' ')} ${this.props.className}`}
+        className={`mdc-checkbox ${this.state.classNames.join(' ')} ${className}`}
       >
         <input
           ref={(element) => { this.nativeElement = element; }}
@@ -124,7 +127,7 @@ export default class Checkbox extends PureComponent {
             });
 
             // Call custom event handler
-            this.props.onChange(event);
+            onChange(event);
           }}
         />
 

@@ -1,21 +1,26 @@
 import classNames from 'classnames';
 import React, { PropTypes } from 'react';
 
-const Button = props =>
-  <button
-    className={classNames({
-      'mdc-button': true,
-      'mdc-button--dense': props.dense,
-      'mdc-button--raised': props.raised,
-      'mdc-button--compact': props.compact,
-      'mdc-button--primary': props.primary,
-      'mdc-button--accent': props.accent,
-      [props.className]: true,
-    })}
-  >
-    {props.children}
-  </button>
-;
+const Button = (props) => {
+  const { className, dense, raised, compact, primary, accent, ...restProps } = props;
+
+  return (
+    <button
+      {...restProps}
+      className={classNames({
+        'mdc-button': true,
+        'mdc-button--dense': dense,
+        'mdc-button--raised': raised,
+        'mdc-button--compact': compact,
+        'mdc-button--primary': primary,
+        'mdc-button--accent': accent,
+        [className]: true,
+      })}
+    >
+      {props.children}
+    </button>
+  );
+};
 
 Button.propTypes = {
   children: PropTypes.node.isRequired,
