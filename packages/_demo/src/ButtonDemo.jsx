@@ -1,5 +1,5 @@
-import Button from '@react-material/button';
 import React from 'react';
+import Button from '../../button';
 
 const ButtonDemo = () =>
   <div>

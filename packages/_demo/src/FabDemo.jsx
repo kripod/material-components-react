@@ -1,5 +1,5 @@
-import Fab from '@react-material/fab';
 import React from 'react';
+import Fab from '../../fab';
 
 const FabDemo = () =>
   <div>
