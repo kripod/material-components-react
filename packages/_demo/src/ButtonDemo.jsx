@@ -5,10 +5,10 @@ const ButtonDemo = () =>
   <div>
     <h1>Button</h1>
 
-    {Object.entries({
-      light: '',
-      dark: 'mdc-theme--dark',
-    }).map(([themeName, themeStyleClassName]) =>
+    {[
+      ['light', ''],
+      ['dark', 'mdc-theme--dark'],
+    ].map(([themeName, themeStyleClassName]) =>
       <div key={themeName}>
         <h2>{themeName} theme</h2>
         <section className={themeStyleClassName}>
