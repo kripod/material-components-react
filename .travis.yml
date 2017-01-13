@@ -12,7 +12,7 @@ cache:
 script:
   - yarn build
   - yarn lint
-  - yarn test -- --coverage
+  - yarn coverage
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
