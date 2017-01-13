@@ -4,7 +4,14 @@ exports[`test renders correctly 1`] = `
     FAB (Floating Action Button)
   </h1>
   <button
-    className="mdc-fab fab-absolute">
+    className="mdc-fab "
+    style={
+      Object {
+        "bottom": "1rem",
+        "position": "absolute",
+        "right": "1rem",
+      }
+    }>
     <span
       className="mdc-fab__icon">
       <svg
