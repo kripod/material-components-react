@@ -9,8 +9,8 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@react-material/button": "*",
-    "@react-material/fab": "*",
+    "@react-material/button": "^0.1.1",
+    "@react-material/fab": "^0.1.1",
     "material-components-web": "^0.2.0",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",
