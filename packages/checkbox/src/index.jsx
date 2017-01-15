@@ -1,4 +1,4 @@
-import { getCorrectEventName } from '@material/animation';
+import { getCorrectEventName } from '@material/animation/dist/mdc.animation';
 import { MDCCheckboxFoundation } from '@material/checkbox/dist/mdc.checkbox';
 import React, { PureComponent, PropTypes } from 'react';
 

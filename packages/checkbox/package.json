@@ -13,7 +13,7 @@
     "build": "babel src -d dist -s"
   },
   "dependencies": {
-    "@material/animation": "^0.1.1",
+    "@material/animation": "^0.1.2",
     "@material/checkbox": "^0.1.1"
   },
   "devDependencies": {
