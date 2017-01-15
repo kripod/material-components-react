@@ -23,7 +23,7 @@ export default class Checkbox extends PureComponent {
     classNames: [],
     checked: Checkbox.defaultProps.checked,
     indeterminate: Checkbox.defaultProps.indeterminate,
-  }
+  };
 
   componentDidMount() {
     this.foundation.init();
@@ -108,15 +108,16 @@ export default class Checkbox extends PureComponent {
 
   render() {
     const { className, onChange, ...restProps } = this.props;
+    delete restProps.indeterminate;
 
     return (
       <div
         {...restProps}
-        ref={(element) => { this.rootElement = element; }}
+        ref={(element) => { if (element) this.rootElement = element; }}
         className={`mdc-checkbox ${this.state.classNames.join(' ')} ${className}`}
       >
         <input
-          ref={(element) => { this.nativeElement = element; }}
+          ref={(element) => { if (element) this.nativeElement = element; }}
           type="checkbox"
           className="mdc-checkbox__native-control"
           checked={this.state.checked}
