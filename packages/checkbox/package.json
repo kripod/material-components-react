@@ -1,6 +1,6 @@
 {
   "name": "@react-material/checkbox",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Material Design checkbox component for React",
   "main": "dist/index.js",
   "repository": "https://github.com/kripod/material-components-react/tree/master/packages/checkbox",
