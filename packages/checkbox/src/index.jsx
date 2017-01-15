@@ -9,6 +9,7 @@ export default class Checkbox extends PureComponent {
     className: PropTypes.string,
     checked: PropTypes.bool,
     indeterminate: PropTypes.bool,
+    disabled: PropTypes.bool,
     onChange: PropTypes.func,
   };
 
@@ -16,6 +17,7 @@ export default class Checkbox extends PureComponent {
     className: '',
     checked: false,
     indeterminate: false,
+    disabled: false,
     onChange: () => {},
   };
 
@@ -107,7 +109,7 @@ export default class Checkbox extends PureComponent {
   });
 
   render() {
-    const { className, onChange, ...restProps } = this.props;
+    const { className, disabled, onChange, ...restProps } = this.props;
     delete restProps.indeterminate;
 
     return (
@@ -121,6 +123,7 @@ export default class Checkbox extends PureComponent {
           type="checkbox"
           className="mdc-checkbox__native-control"
           checked={this.state.checked}
+          disabled={disabled}
           onChange={(event) => {
             this.setState({
               checked: this.nativeElement.checked,
