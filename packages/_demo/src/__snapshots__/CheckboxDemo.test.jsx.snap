@@ -1,0 +1,46 @@
+exports[`test renders correctly 1`] = `
+<div>
+  <div
+    className="mdc-form-field">
+    <div
+      checked={false}
+      className="mdc-checkbox  "
+      id="demo-checkbox">
+      <input
+        checked={false}
+        className="mdc-checkbox__native-control"
+        disabled={false}
+        onChange={[Function]}
+        type="checkbox" />
+      <div
+        className="mdc-checkbox__background">
+        <svg
+          className="mdc-checkbox__checkmark"
+          version="1.1"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            className="mdc-checkbox__checkmark__path"
+            d="M1.73,12.91 8.1,19.28 22.79,4.59"
+            fill="none"
+            stroke="white" />
+        </svg>
+        <div
+          className="mdc-checkbox__mixedmark" />
+      </div>
+    </div>
+    <label
+      htmlFor="demo-checkbox">
+      This is my checkbox
+    </label>
+  </div>
+  <button
+    onClick={[Function]}>
+    Make Indeterminate
+  </button>
+  <button
+    onClick={[Function]}>
+    Toggle Disabled
+  </button>
+</div>
+`;
