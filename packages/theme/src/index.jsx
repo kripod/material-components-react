@@ -12,7 +12,7 @@ const Theme = (props) => {
       {...restProps}
       className={classNames(
         colorClassNames.map(cn => `mdc-theme--${cn}`),
-        backgroundColorClassNames.map(cn => `mdc-theme--${cn}-bg`),
+        backgroundColorClassNames.map(cn => `mdc-theme--${cn}${cn !== 'background' ? '-bg' : ''}`),
         { 'mdc-theme--dark': dark },
         className,
       )}

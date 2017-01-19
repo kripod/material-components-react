@@ -1,0 +1,17 @@
+exports[`test renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#333",
+    }
+  }>
+  <div
+    className="mdc-theme-- mdc-theme--background">
+    Hello, World!
+  </div>
+  <div
+    className="mdc-theme--accent mdc-theme---bg mdc-theme--dark">
+    Hello, World!
+  </div>
+</div>
+`;
