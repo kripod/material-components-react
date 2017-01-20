@@ -6,6 +6,7 @@ import ButtonDemo from './ButtonDemo';
 import CheckboxDemo from './CheckboxDemo';
 import FabDemo from './FabDemo';
 import ThemeDemo from './ThemeDemo';
+import TypographyDemo from './TypographyDemo';
 
 const App = () =>
   <main>
@@ -13,6 +14,7 @@ const App = () =>
       <ButtonDemo />
       <CheckboxDemo />
       <FabDemo />
+      <TypographyDemo />
     </ThemeDemo>
   </main>
 ;
