@@ -9,76 +9,70 @@ exports[`test renders correctly 1`] = `
        margin adjustments
     </h2>
     <section>
-      <span
-        className="mdc-typography ">
-        <h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display4 ">
+          Display 4
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display3 ">
+          Display 3
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display2 ">
+          Display 2
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display1 ">
+          Display 1
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--headline ">
+          Headline
+        </span>
+      </h1>
+      <h2>
+        <span
+          className="mdc-typography mdc-typography--title ">
+          Title 
           <span
-            className="mdc-typography mdc-typography--display4 ">
-            Display 4
+            className="mdc-typography mdc-typography--caption ">
+            Caption.
           </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography mdc-typography--display3 ">
-            Display 3
-          </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography mdc-typography--display2 ">
-            Display 2
-          </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography mdc-typography--display1 ">
-            Display 1
-          </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography "
-            headling={true}>
-            Headline
-          </span>
-        </h1>
-        <h2>
-          <span
-            className="mdc-typography mdc-typography--title ">
-            Title 
-            <span
-              className="mdc-typography mdc-typography--caption ">
-              Caption.
-            </span>
-          </span>
-        </h2>
-        <h2>
-          <span
-            className="mdc-typography "
-            subheading2={true}>
-            Subheading 2
-          </span>
-        </h2>
-        <h2>
-          <span
-            className="mdc-typography "
-            subheading1={true}>
-            Subheading 1
-          </span>
-        </h2>
-        <p>
-          <span
-            className="mdc-typography mdc-typography--body1 ">
-            Body 1 paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </span>
-        </p>
-        <aside>
-          <span
-            className="mdc-typography mdc-typography--body2 ">
-            Body 2 text, calling something out.
-          </span>
-        </aside>
-      </span>
+        </span>
+      </h2>
+      <h2>
+        <span
+          className="mdc-typography mdc-typography--subheading2 ">
+          Subheading 2
+        </span>
+      </h2>
+      <h2>
+        <span
+          className="mdc-typography mdc-typography--subheading1 ">
+          Subheading 1
+        </span>
+      </h2>
+      <p>
+        <span
+          className="mdc-typography mdc-typography--body1 ">
+          Body 1 paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </span>
+      </p>
+      <aside>
+        <span
+          className="mdc-typography mdc-typography--body2 ">
+          Body 2 text, calling something out.
+        </span>
+      </aside>
     </section>
   </div>
   <div>
@@ -87,76 +81,70 @@ exports[`test renders correctly 1`] = `
        margin adjustments
     </h2>
     <section>
-      <span
-        className="mdc-typography mdc-typography--adjust-margin ">
-        <h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display4 mdc-typography--adjust-margin ">
+          Display 4
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display3 mdc-typography--adjust-margin ">
+          Display 3
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display2 mdc-typography--adjust-margin ">
+          Display 2
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--display1 mdc-typography--adjust-margin ">
+          Display 1
+        </span>
+      </h1>
+      <h1>
+        <span
+          className="mdc-typography mdc-typography--headline mdc-typography--adjust-margin ">
+          Headline
+        </span>
+      </h1>
+      <h2>
+        <span
+          className="mdc-typography mdc-typography--title mdc-typography--adjust-margin ">
+          Title 
           <span
-            className="mdc-typography mdc-typography--display4 ">
-            Display 4
+            className="mdc-typography mdc-typography--caption mdc-typography--adjust-margin ">
+            Caption.
           </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography mdc-typography--display3 ">
-            Display 3
-          </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography mdc-typography--display2 ">
-            Display 2
-          </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography mdc-typography--display1 ">
-            Display 1
-          </span>
-        </h1>
-        <h1>
-          <span
-            className="mdc-typography "
-            headling={true}>
-            Headline
-          </span>
-        </h1>
-        <h2>
-          <span
-            className="mdc-typography mdc-typography--title ">
-            Title 
-            <span
-              className="mdc-typography mdc-typography--caption ">
-              Caption.
-            </span>
-          </span>
-        </h2>
-        <h2>
-          <span
-            className="mdc-typography "
-            subheading2={true}>
-            Subheading 2
-          </span>
-        </h2>
-        <h2>
-          <span
-            className="mdc-typography "
-            subheading1={true}>
-            Subheading 1
-          </span>
-        </h2>
-        <p>
-          <span
-            className="mdc-typography mdc-typography--body1 ">
-            Body 1 paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </span>
-        </p>
-        <aside>
-          <span
-            className="mdc-typography mdc-typography--body2 ">
-            Body 2 text, calling something out.
-          </span>
-        </aside>
-      </span>
+        </span>
+      </h2>
+      <h2>
+        <span
+          className="mdc-typography mdc-typography--subheading2 mdc-typography--adjust-margin ">
+          Subheading 2
+        </span>
+      </h2>
+      <h2>
+        <span
+          className="mdc-typography mdc-typography--subheading1 mdc-typography--adjust-margin ">
+          Subheading 1
+        </span>
+      </h2>
+      <p>
+        <span
+          className="mdc-typography mdc-typography--body1 mdc-typography--adjust-margin ">
+          Body 1 paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </span>
+      </p>
+      <aside>
+        <span
+          className="mdc-typography mdc-typography--body2 mdc-typography--adjust-margin ">
+          Body 2 text, calling something out.
+        </span>
+      </aside>
     </section>
   </div>
 </div>
