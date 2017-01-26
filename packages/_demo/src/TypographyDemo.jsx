@@ -36,7 +36,9 @@ const TypographyDemo = () =>
           </p>
 
           <aside>
-            <Typography adjustMargin={adjustMargin} body2>Body 2 text, calling something out.</Typography>
+            <Typography adjustMargin={adjustMargin} body2>
+              Body 2 text, calling something out.
+            </Typography>
           </aside>
         </section>
       </div>,
