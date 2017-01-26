@@ -21,12 +21,6 @@ export default class Checkbox extends PureComponent {
     onChange: () => {},
   };
 
-  constructor(props) {
-    super(props);
-
-    this.updateNativeElement = this.updateNativeElement.bind(this);
-  }
-
   state = {
     classNames: [],
     checked: Checkbox.defaultProps.checked,
@@ -114,7 +108,7 @@ export default class Checkbox extends PureComponent {
     isAttachedToDOM: () => Boolean(this.nativeElement),
   });
 
-  updateNativeElement(element) {
+  updateNativeElement = (element) => {
     this.nativeElement = element;
   }
 
